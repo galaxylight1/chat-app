@@ -37,6 +37,20 @@ export const Button = styled.button`
   font-size: 16px;
   border-radius: 10px;
   padding: 25px;
+  font-weight: 500;
+  transition: 250ms background-color ease;
+  border: 2px solid #2b09ff;
+  &:focus {
+    background-color: #3415ff;
+    border: 2px solid #fff;
+  }
+  &:hover {
+    cursor: pointer;
+    background-color: #3415ff;
+  }
+  &:active {
+    background-color: #3a1cff;
+  }
 `;
 
 export const Page = styled.div`

@@ -6,10 +6,23 @@ form {
   width: 100%;
   display: flex;
   justify-content: space-between;
-    gap: 8px;
-    margin: 8px 0;
+  gap: 8px;
+  margin: 8px 0;
 }
 
 .button {
   margin: 8px 0;
+}
+
+.loginFormPassword {
+  margin: 8px 0;
+}
+
+.existingUser {
+  & :last-child {
+    text-decoration: underline;
+    color: #654ddd;
+  }
+  margin: 10px 0;
+  text-align: center;
 }
